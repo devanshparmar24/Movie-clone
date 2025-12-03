@@ -1,5 +1,5 @@
 const API_KEY = "e99e2f6f175e86b2ca647a31c853e6ef";
-const BASE_URL = "https://api.themoviedb.org/3/authentication";
+const BASE_URL = "https://api.themoviedb.org/3/";
 
 export const getPopularMovies = async () =>{
     const response = await fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}`);
